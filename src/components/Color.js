@@ -11,7 +11,7 @@ const ColorComp = () => {
   return (
     <div className='App'>
       {/* only more JSX allowed */}
-      <header className='App-header'>
+      <header>
         <h1 style={{ color: textColor }}>My favorite Color is {textColor}</h1>
         <button onClick={() => setTextColor('blue')}>Blue</button>
         <br />

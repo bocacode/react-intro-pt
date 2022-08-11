@@ -6,12 +6,12 @@ import SuperSimpleComp from './components/Simple'
 
 function App() {
   return (
-    <>
+    <div className='App-header' >
       <ColorComp />
       <CounterComp />
       <CompWithFragment />
       <SuperSimpleComp />
-    </>
+    </div>
   )
 }
 
